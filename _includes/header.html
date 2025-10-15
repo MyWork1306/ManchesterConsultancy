@@ -1,20 +1,31 @@
 <header class="site-header wrap">
-  <a class="brand" href="{{ '/' | relative_url }}">
-    <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" class="logo">
-    <span class="site-title">{{ site.title }}</span>
-  </a>
+  <div class="nav-container">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ site.logo | relative_url }}" alt="Manchester Consultancy logo" class="logo">
+      <span class="site-title">{{ site.title }}</span>
+    </a>
 
-  <button class="hamburger" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Menu">☰</button>
+    <!-- Hamburger button -->
+    <button class="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-  <nav id="nav" class="main-nav">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about/' | relative_url }}">About</a>
-    <a href="{{ '/services/' | relative_url }}">Services</a>
-    <a href="{{ '/team/' | relative_url }}">Team</a>
-    <a class="btn" href="{{ '/contact/' | relative_url }}">Contact</a>
-  </nav>
+    <!-- Navigation -->
+    <nav id="nav" class="main-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/services/' | relative_url }}">Services</a>
+      <a href="{{ '/team/' | relative_url }}">Team</a>
+      <a class="btn" href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <script>
-function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+function toggleMenu() {
+  document.getElementById('nav').classList.toggle('open');
+  document.querySelector('.hamburger').classList.toggle('active');
+}
 </script>
