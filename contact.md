@@ -9,7 +9,7 @@ intro_image: "/assets/images/illustrations/contact-illustration.svg"
 
 Interested in working together? Get in touch.
 
-- Email: @manchesterconsultancy.uk
+- Email: alex.mercer@manchesterconsultancy.uk
 - Phone: +447888165895
 
 <form action="https://formspree.io/f/mqayyrry" method="POST" class="contact-form">
