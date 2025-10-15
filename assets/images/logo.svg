@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" width="180" height="48">
-  <rect width="180" height="48" fill="#034f84" rx="8"/>
-  <g transform="translate(14,14)" fill="#fff" font-family="Arial">
-    <text x="0" y="18" font-size="18" font-weight="700">Manchester</text>
-    <text x="94" y="18" font-size="18" font-weight="300">Consultancy</text>
-  </g>
-</svg>
