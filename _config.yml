@@ -1,0 +1,30 @@
+title: "Manchester Consultancy"
+description: "Empowering Business Growth Through Strategy & Innovation."
+url: ""
+baseurl: ""
+permalink: pretty
+theme: minima
+
+logo: "/assets/images/logo.svg"
+
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      {{ content }}
+    </div>
+    <div class="hero-visual">
+      {% if page.intro_image %}
+      <img src="{{ page.intro_image | relative_url }}" alt="Consulting illustration">
+      {% endif %}
+    </div>
+  </div>
+</section>

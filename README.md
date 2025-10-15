@@ -1,0 +1,1 @@
+# Manchester Consultancy — Creative Portfolio Theme\n\nThis Jekyll site is styled as a creative portfolio / freelancer theme, restyled for Manchester Consultancy with a dark navy + gold palette.\n\nTo run locally:\n\n```bash\nbundle install\nbundle exec jekyll serve\n```\n\nThen open http://127.0.0.1:4000/\n
