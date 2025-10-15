@@ -1,0 +1,1 @@
+# Manchester Consultancy (Jekyll site)\n\nThis repository contains a Jekyll site for *Manchester Consultancy* ready to deploy on GitHub Pages.\n\nTo run locally:\n\n```\nbundle install\nbundle exec jekyll serve\n```\n\nThen open http://127.0.0.1:4000/\n
